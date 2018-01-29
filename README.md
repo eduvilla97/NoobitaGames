@@ -18,8 +18,8 @@
    Trabaja_Para(?)  
    Plataforma  
    Disponible_En  
-   Juega_A  
-    
+   Juega_A
 # Funcionalidad Avanzada:
-# 
+   La pagina contara con un sistema de puntuacion de usuarios por buena conducta, puntos que serán otorgados por los usuarios que jueguen con él.  
+      
 # Funcionalidad con Tecnologias Avanzadas.
