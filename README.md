@@ -1,9 +1,9 @@
 # NoobitaGames
 # Integrantes del equipo:
-  # Enrique Torralba del Cid
-  # Mario Simón Soto
-  # Óscar Carazo Cámara
-  # Eduardo Villaverde Espeso
+   Enrique Torralba del Cid
+   Mario Simón Soto
+   Óscar Carazo Cámara
+   Eduardo Villaverde Espeso
   # 
 # Entidades de la base de datos de nuestra aplicación web:
   # Usuario
