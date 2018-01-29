@@ -9,7 +9,7 @@
 
    ![Imagen de las Entidades](photo6014931153942850327.jpg)
 # Funcionalidad Avanzada:
-   La pagina contara con un sistema de puntuacion de usuarios por buena conducta, puntos que serán otorgados por los usuarios que jueguen con él.  
+  La pagina contara con un sistema de puntuacion de usuarios por buena conducta, puntos que serán otorgados por los usuarios que jueguen con él.  
       
 # Funcionalidad con Tecnologias Avanzadas.  
-*Login con Google, Facebook y Steam
+  Login con Google, Facebook y Steam
