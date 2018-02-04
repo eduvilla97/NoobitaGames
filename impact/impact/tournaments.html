@@ -54,38 +54,62 @@
 </head><!--/head-->
 <body>
 <div id="preloader"></div>
-    <header class="navbar navbar-inverse navbar-fixed-top opaqued" role="banner">
-    <div id="search-wrapper">
-        <div class="container">
-            <input id="search-box" placeholder="Search">
-        </div>
-    </div>
-    </div>
+  <header class="navbar navbar-inverse navbar-fixed-top " role="banner">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html"><h1><span class="pe-7s-gleam bounce-in"></span> IMPACT</h1></a>
+                 <a class="navbar-brand" href="index.html"><h1>NOOBITAGAMES</h1></a>
             </div>
             <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-left">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="blog.html">Blog</a></li> 
-                    <li><a href="contact-us.html">Contact</a></li> 
-                    <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="project-item.html">Project Single</a></li>
-                            <li><a href="blog-item.html">Blog Single</a></li>
-                            <li class="active"><a href="404.html">404</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="about-us.html">About us</a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="tournaments.html">Tournaments</a></li>
+                    <li><a href="forum.html">Forum</a></li> 
                     <li><span class="search-trigger"><i class="fa fa-search"></i></span></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+                        <ul id="login-dp" class="dropdown-menu">
+				            <li>
+                                <div class="row">
+				                    <div class="col-md-12">
+                                        Login via
+								            <div class="social-buttons">
+								                <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+                                                <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+								            </div>  
+                                        or
+                                            <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+								                <div class="form-group">
+								                    <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="exampleInputPassword2">Password</label>
+                                                    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                                    <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+                                                </div>
+								                <div class="form-group">
+                                                    <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+								                </div>
+								                <div class="checkbox">
+                                                    <label><input type="checkbox"> keep me logged-in</label>
+								                </div>
+								            </form>
+                                    </div>
+				                    <div class="bottom text-center">
+								        New here ? <a href="#"><b>Join Us</b></a>
+                                    </div>
+					           </div>
+                            </li>
+			             </ul>
+                    </li>
                 </ul>
             </div>
         </div>
